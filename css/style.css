@@ -9,3 +9,11 @@
 body{
     background-color: var(--color-1);
 }
+.row_1{
+    width: 1312px;
+    height: 288px;
+    background: red;
+    position: relative;
+    top: 300px;
+
+}
