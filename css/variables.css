@@ -1,9 +1,14 @@
 :root{
-    --color-1: red;
-    --color-2: white;
-
+    --color-1: white;
+    --color-2: #252525;
 }
+
 @font-face {
-    font-family: "example";
-    src: url(/storage/font/example.ttf);
+    font-family: "Montserrat-Bold";
+    src: url(/storage/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(/storage/font/Montserrat-Regular.ttf);
 }
