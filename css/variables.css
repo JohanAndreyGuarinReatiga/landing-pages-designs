@@ -4,11 +4,11 @@
 }
 
 @font-face {
-    font-family: "Montserrat-Bold";
-    src: url(/storage/font/Montserrat-Bold.ttf);
+    font-family: "Avenir-Heavy";
+    src: url(/storage/font/Avenir\ LT\ Std\ 85\ Heavy.otf);
 }
 
 @font-face {
-    font-family: "Montserrat-Regular";
-    src: url(/storage/font/Montserrat-Regular.ttf);
+    font-family: "Avenir-Roman";
+    src: url(/storage/font/Avenir\ LT\ Std\ 55\ Roman.otf);
 }
