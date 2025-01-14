@@ -1,7 +1,7 @@
 @import url(variables.css);
 
 *{margin: 0; padding: 0;
-     outline: 1px solid tomato;
+     /* outline: 1px solid tomato; */
     }
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
@@ -78,3 +78,37 @@ transition: none;
     left: 968px;
     top: 217px;
 }
+
+.images{
+    position: absolute;
+    display: flex;
+    width: 1316px;
+    gap: 40px;
+    height: 440px;
+    left: 64px;
+    bottom: 63px;
+    align-items: center;
+}
+
+.image_box{
+    width: 412px;
+    height: 438.16px;
+    top: 59px;
+    position: relative;
+}
+
+.image_box img{
+    width: 412px;
+    height: 379.16pxpx;
+}
+
+.image_box span {
+    position: absolute;
+    top: -60px;
+    left: 10px;
+    font-size: 40px;
+    font-family: "Avenir-Heavy";
+    padding: 2px 6px;
+    color: var(--color-1);
+    opacity: 25%;
+  }
