@@ -6,14 +6,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: var(--color-1);
+}
+
+.box_1{
+    width: 610px;
+    height: 355px;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 64px;
+    left: 50%;
+    transform: translate(-50%);
 }
 .row_1{
     width: 1312px;
     height: 288px;
-    background: red;
-    position: relative;
-    top: 300px;
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%);
+}
 
+.row_1 div{
+    width: 100%;
+
+}
+.row_1  div img{
+    height: 288px;
+    position: relative;
+    border-radius: 16px;
+    margin-right: 9px;
+}
+
+.row_2{
+    width: 1312px;
+    height: 288px;
+    position: absolute;
+    top: 780px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.row_2 div{
+    width: 100%;
+
+}
+.row_2  div img{
+    height: 288px;
+    position: relative;
+    border-radius: 16px;
+    margin-right: 9px;
 }
