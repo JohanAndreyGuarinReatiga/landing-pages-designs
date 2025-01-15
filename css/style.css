@@ -1,8 +1,86 @@
 @import url(variables.css);
 
 
-*{
+*{margin: 0; padding: 0; outline: 1px solid tomato;}
+::before,::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+,::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+body {
+    font-family: "Avenir-Heavy";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-2);
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    height: 1204px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-content {
+    margin-bottom: 20px;
+    
+    h1 {
+        font-size: 88px;
+        color: var(--color-1);
+        margin-left: 64px;
+        margin-top: 122px;
+    }
+    
+    p {
+        font-size: 25px;
+        color: var(--color-1);
+        line-height: 1.4;
+        opacity: 80%;
+        margin-left: 851px;
+        margin-right: 76px;
+        margin-top: -106px;
+        font-family: "Avenir-Roman";
+    }
+    
+    .btn {
+        padding: 12px 25px;
+        background-color: var(--color-1);
+        color: var(--color-2);
+        border-radius: 16px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s;
+        margin-left: 851px;
+        margin-top: 16px;
+    }
+    
+    .btn:hover {
+        background-color: var(--color-1);
+    }
+}
+
+
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img{
+    width: 1313px;
+    height: 732px;
 }
