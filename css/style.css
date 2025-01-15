@@ -81,6 +81,9 @@ body {
 }
 
 .image-container img{
+    position: absolute;
     width: 1313px;
     height: 732px;
+    top: 416px;
+    right: 63px;
 }
