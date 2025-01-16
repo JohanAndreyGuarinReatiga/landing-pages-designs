@@ -1,8 +1,100 @@
 @import url(variables.css);
 
+*{margin: 0; padding: 0; outline: 1px solid tomato;}
+::before,::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+,::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+.container {
+    width: 1440px;
+    height: 999px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: "Avenir-Heavy";
+    width: 500px;
+    height: 153px;
+    line-height: 80px;
+    top: 82px;
+    position: relative;
+    left: 828px;
+}
+
+p {
+    width: 500px;
+    height: 144px;
+    position: relative;
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    left: 828px;
+    top: 133px;
+}
+
+button{
+    background-color: var(--color-1);
+    width: 158px;
+    height: 54px;
+    left: 828px;
+    position: relative;
+    color: var(--color-2);
+    border-radius: 16px;
+    top: 150px;
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+}
+
+.card-1{
+    left: 828px;
+    position: relative;
+    color: var(--color-1);
+    top: 183px;
+    width: 500px;
+    height: 147px;
+
+    h2 {
+        font-size: 32px;
+
+    }
+    p {
+        font-size: 24px;
+
+    }
+}
+
+.card-2{
+    left: 828px;
+    position: relative;
+    top: 170px;
+    color: var(--color-1);
+    width: 500px;
+    height: 147px;
+    h2 {
+        font-size: 32px;
+
+    }
+    p {
+        font-size: 24px;
+
+    }
+}
+
+img {
+    position: absolute;
+    top: 67px;
+    margin: auto;
 }
