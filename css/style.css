@@ -9,19 +9,20 @@
 body {
     font-family: "Avenir-Heavy";
     color: var(--color-1);
-    width: 1440px;
-    height: 954px;
-    position: relative;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .text-box {
     width: 531px;
     height: 208px;
-    position: relative;
-    top: 64px;
-    left: 64px;
     font-size: 44px;
+    display: flex;
+    justify-self: flex-start;
+    margin-top: 64px;
 
 }
 
@@ -29,8 +30,9 @@ body {
     width: 1312px;
     height: 549px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 64px;
+    justify-items: center;
+    gap: 56px;
+    margin-top: 69px;
 }
 
 .card-box {
@@ -39,7 +41,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: relative;
     color: var(--color-1);
 }
 
