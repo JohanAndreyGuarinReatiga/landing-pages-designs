@@ -6,3 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    width: 1440px;
+    height: 926px;
+    display: flex;
+    justify-self: center;    
+}
