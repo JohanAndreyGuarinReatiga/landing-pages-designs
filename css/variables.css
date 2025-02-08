@@ -9,15 +9,15 @@
 }
 @font-face {
     font-family: "PlayfairDisplay-Bold";
-    src: url(/storage/font/PlayfairDisplay-Bold.ttf);
+    src: url(../storage/font/PlayfairDisplay-Bold.ttf);
 }
 
 @font-face {
     font-family: "WorkSans-Regular";
-    src: url(/storage/font/WorkSans-Regular.ttf);
+    src: url(../storage/font/WorkSans-Regular.ttf);
 }
 
 @font-face {
     font-family: "WorkSans-Medium";
-    src: url(/storage/font/WorkSans-Medium.ttf);
+    src: url(../storage/font/WorkSans-Medium.ttf);
 }
