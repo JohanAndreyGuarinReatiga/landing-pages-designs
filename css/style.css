@@ -20,13 +20,20 @@
     }
 }
 .section__images {
-
+    display: flex;
+    flex-direction: row;
+    width: 742px;
+    height: 792px;
 
 }
 .div__column {
+    width: 172px;
+    height: 792px;
+    display: flex;
+    flex-direction: column;
 
     img{
-        
+
     }
 }
 
