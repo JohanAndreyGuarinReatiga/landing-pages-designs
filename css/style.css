@@ -6,3 +6,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 1440px;
+    height: 1024px;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.section__text {
+    width: 637px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    h1{
+        width: 637px;
+        height: 176px;
+        font-family: "AvenirLTStd-Heavy";
+        color: var(--color-2);
+        font-size: 72px;
+        text-indent: right;
+    }
+    p{
+        width: 586px;
+        height: 108px;
+        font-family: "AvenirLTStd-Roman";
+        color: var(--color-5);
+        font-size: 26px
+    }
+    button{
+        width: 182px;
+        height: 66px;
+        font-family: "Poppins-Regular";
+        color: var(--color-1);
+        font-size: 24px;
+        background: var(--color-2);
+        border-radius: 36px;
+        border-style: none;
+    }
+}
+.section__images {
+    width: 547px;
+    height: 518.66px;
+    margin-left: 126px;
+    margin-top: 92px;
+    img:nth-child(1){
+        position: relative;
+        z-index: 1;
+    }
+    img:nth-child(2){
+        position: relative;
+        z-index: 2;
+        bottom: 255px;
+        left: 226px;
+    }
+}
+.section__list {
+}
+.div__list {
+}
