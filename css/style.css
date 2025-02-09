@@ -6,3 +6,134 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 1440px;
+    height: 1024px;
+}
+.section__images {
+    position: relative;
+    z-index: 1;
+    width: 996px;
+    height: 893px;
+    top: 67px;
+    left: 383px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    img:nth-child(1){
+        width: 316px;
+        height: 436px;
+        position: relative;
+        top: 433px;
+    }
+    img:nth-child(2){
+        width: 316px;
+        height: 436px;
+        position: relative;
+        top: 191px;
+    }
+    img:nth-child(3){
+        width: 316px;
+        height: 436px;
+        position: relative;
+    }
+
+}
+.section__content {
+    width: 637px;
+    height: 477px;
+    position: relative;
+    bottom: 850px;
+    left: 64px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    h1{
+        font-family: "AvenirLTStd-Heavy";
+        color: var(--color-2);
+        font-size: 72px;
+        height: 264px;
+        width: 100px;
+    }
+    p{
+        width: 519px;
+        height: 99px;
+        font-family: "AvenirLTStd-Roman";
+        color: var(--color-3);
+        font-size: 24px;
+    }
+    button{
+        width: 182px;
+        height: 66px;
+        border-radius: 36px;
+        background: var(--color-2);
+        font-size: 24px;
+        color: var(--color-4);
+        font-family: "Poppins-Regular";
+
+    }
+}
+.section__shapes {
+    position: relative;
+    width: 1210px;
+    height: 866.88px;
+    left: 142px;
+    bottom: 1280px;
+    z-index: 3;
+    img:nth-child(1){   
+        position: relative;
+        width: 133px;
+        height: 283.88px;
+        top: 583px;
+    }
+    img:nth-child(2){
+        position: relative;
+        width: 355px;
+        height: 126px;
+        left: 223px;
+        bottom: 150px;
+    }
+    img:nth-child(3){
+        position: relative;
+        top: 240px  ;
+        right: 37px;
+    }
+    img:nth-child(4){
+        position: relative;
+        top: 420px  ;
+        left: 200px;
+    }
+
+}
+.section__card {
+    width: 668px;
+    height: 122px;
+    gap: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 1390px;
+    left: 730px;
+    z-index: 3;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    p{
+        width: 516px;
+        height: 90px;
+        font-family: "AvenirLTStd-Roman";
+        color: var(--color-3);
+        font-size: 22px;
+    }
+
+}
