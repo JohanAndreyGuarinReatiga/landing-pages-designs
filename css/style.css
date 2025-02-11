@@ -1,8 +1,100 @@
 @import url(variables.css);
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.estrellita{
+  position: relative;
+  top: 163px;
+  left: 396px;
+
+}
+
+.div__body{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 100vh;
+}
+
+.imagen__central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.text{
+  height: 50%;
+}
+.imagenes{
+  display: flex;
+  height: 50%;
+  display: flex;
+  width: 373.69px;
+  height: 364.21px;
+  gap: 21.69px;
+  align-self: center;
+}
+
+.imagenes img:nth-child(2){
+  width: 176px;
+  height: 298px;
+
+}
+.imagenes img:nth-child(1){
+  width: 176px;
+  height: 298px;
+  margin-top: 66.21px;
+
+}
+.estrellita {
+  position: fixed;
+}
+
+.row1 img:nth-child(2){
+
+
+}
+
+
+.row1 img:last-child{
+
+
+}
+
+
+.row2 {
+
+
+  p{
+
+  }
+  h1{
+
+  }
+
+}
+
+
+.row2 img:nth-child(1){
+
+
+}
+
+.row2 img:nth-child(2){
+
+
+}
+
+.row2 img:nth-child(3){
+
+
 }
