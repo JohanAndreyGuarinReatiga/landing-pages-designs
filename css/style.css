@@ -1,8 +1,143 @@
 @import url(variables.css);
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+  background: var(--color-5);
+  height: 1475px;
+  /* position: relative; */
+  /* overflow: hidden; */
+  justify-self: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 358px;
+  top: 64px;
+}
+.find{
+  color: var(--color-1);
+  text-align: left;
+  font-family: "Poppins-SemiBold";
+  font-size: 56px;
+  line-height: 84px;
+  font-weight: 600;
+  position: relative;
+}
+.lorem{
+  color: var(--color-4);
+  text-align: center;
+  font-family: "Avenir-Roman";
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 689px;
+}
+.primary-button {
+  background: var(--color-1);
+  border-radius: 36px;
+  padding: 24px 48px 24px 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.contact-us {
+  color: var(--color-2);
+  text-align: left;
+  font-family: "Poppins-Regular";
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.image {
+  border-radius: 24px;
+  width: 1312px;
+  height: 526px;
+  position: absolute;
+  left: 64px;
+  top: 504px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.list {
+  background: var(--color-2);
+  border-radius: 48px;
+  padding: 40px 64px 40px 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 196px;
+  top: 417px;
+}
+
+.title-1 {
+  color: var(--color-1);
+  text-align: left;
+  font-family: "Avenir-Heavy";
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.rectangle-16 {
+  background: var(--color-1);
+  flex-shrink: 0;
+  width: 66px;
+  height: 4px;
+  position: relative;
+}
+.lorem-ipsum{
+  color: var(--color-3);
+  text-align: left;
+  font-family: "Avenir-Roman";
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 176px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.images-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 1070px;
+
+  img{
+    border-radius: 32px;
+    flex-shrink: 0;
+    width: 411px;
+    height: 344px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+  }
 }

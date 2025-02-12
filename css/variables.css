@@ -2,17 +2,17 @@
     --color-1: #252525;
     --color-2: #FFFFFF;
     --color-3: hsla(0, 0%, 15%, 0.7);
-    --color-3: hsla(0, 0%, 15%, 0.8);
-    --color-3: #F2F2F2;
+    --color-4: hsla(0, 0%, 15%, 0.8);
+    --color-5: #F2F2F2;
 
 
 }
 @font-face {
-    font-family: "AvenirLTStd-Heavy";
+    font-family: "Avenir-Heavy";
     src: url(../storage/font/AvenirLTStd-Heavy.otf);
 }
 @font-face {
-    font-family: "AvenirLTStd-Roman";
+    font-family: "Avenir-Roman";
     src: url(../storage/font/AvenirLTStd-Roman.otf);
 }
 @font-face {
