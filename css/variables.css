@@ -1,6 +1,17 @@
 :root{
-    --color-1: red;
+    --color-1: hsla(0, 0%, 100%, 0.8);
+    --color-2: #FFFFFF;
+    --color-2: #3D45FF;
+    --color-2: #3FFFFF;
+    --color-2: #52DC4B;
+    --color-2: #FF6E3D;
+    --color-2: #FFFF67;
     --color-2: white;
+    --color-2: #000000;
+    --color-2: white;
+    --color-2: white;
+
+
 
 }
 @font-face {
