@@ -7,6 +7,11 @@
 
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Typography-Times-Regular";
+    src: url(../storage/font/Typography-Times-Regular.ttf);
 }
