@@ -11,4 +11,117 @@ body{
     width: 1440px;
     height: 1345px;
     display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.section-top {
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    img{
+        margin-top: 64px;
+        width: 592.48px;
+        height: 592.48px;
+    }
+}
+.text-top{
+    width: 464px;
+    height: 498px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 157px;
+    margin-left: 126px;
+
+    h1{
+        width: 400px;
+        height: 240px;
+        font-size: 64px;
+        color: var(--color-2);
+    }
+    p{
+        width: 350px;
+        height: 128px;
+        font-size: 24px;
+        color: var(--color-2);
+
+    }
+    button{
+        width: 179px;
+        height: 60px;
+        background: var(--color-7);
+        font-size: 24px;
+        font-family: "Avenir-Roman";
+        color: var(--color-3);
+        border-radius: 36px;
+        border-style: none;
+    }
+
+}
+
+.mid-row {
+    display: flex;
+    flex-direction: row;
+    gap: 88px;
+    background: var(--color-8);
+    width: 878px;
+    height: 188px;
+    border-radius: 80px;
+    left: 281px;
+    position: relative;
+    top: 55px;
+    padding: 24px;
+    justify-content: center;
+}
+.div-row-img{
+    width: 170px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    
+    img{    
+        width: 36px;
+        height: 36px;
+    }
+    p{
+        width: 170px;
+        height: 48px;
+        text-align: center;
+        font-family: "Poppins-Regular";
+        font-size: 16px;
+
+    }
+    h3{
+        font-family: "Poppins-SemiBold";
+        font-size: 32px;
+    }
+
+}
+
+.section-bottom {
+    width: 1440px;
+    height: 472px;
+    background: var(--color-6);
+}
+.div-img {
+
+    p{
+        font-size: 16px;
+        font-family: "Poppins-Light";
+        color: var(--color-3);
+    }
+
+}
+
+.div__row-img{
+    width: 1314px;
+    height: 266px;
+    margin-top: 138px;
+    margin-left: 63px;
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
 }
