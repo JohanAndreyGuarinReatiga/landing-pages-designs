@@ -1,6 +1,5 @@
 @import url(variables.css);
 
-
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +7,57 @@
 }
 
 body{
-    width: 1440px;
-    height: 1536px;
+    /* width: 1440px; */
+    /* height: 1536px; */
     justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    width: 637px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    /* margin-left: 402px; */
+    top: 343px;
+    justify-content: center;
+    text-align: center;
+    h1{
+        font-size: 96px;
+        text-align: center;
+        color: var(--color-1);
+        font-family: "Lato-Bold";
+
+    }
+    p{
+        color: var(--color-1);
+        font-size: 26px;
+        width: 520px;
+        /* height: 93px; */
+        text-align: center;
+        font-family: "Lato-Regular";
+        align-self: center;
+    }
+    button{
+        color: var(--color-2);
+        background: var(--color-1);
+        font-size: 24px;
+        width: 175px;
+        height: 66px;
+        border-style: none;
+        border-radius: 36px;
+        align-self: center;
+        font-family: "Lato-Medium";
+
+    }
+}
+.section1{
+    display: flex;
+    justify-content: center;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
 }
