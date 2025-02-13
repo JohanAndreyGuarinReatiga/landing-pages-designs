@@ -1,9 +1,27 @@
 :root{
-    --color-1: red;
-    --color-2: white;
+    --color-1: #333333;
+    --color-2: #252525;
+    --color-3: #909090;
+    --color-4: #4F4F4F;
+    --color-5: #FFFFFF;
 
 }
 @font-face {
-    font-family: "example";
-    src: url(/storage/font/example.ttf);
+    font-family: "Poppins-Regular";
+    src: url(..//storage/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "times-new-roman-bold";
+    src: url(../storage/font/times-new-roman-bold.ttf);
+}
+
+@font-face {
+    font-family: "times-new-roman";
+    src: url(../storage/font/times-new-roman.ttf);
+}
+
+@font-face {
+    font-family: "times-new-roman-italic";
+    src: url(../storage/font/times-new-roman-italic.ttf);
 }
