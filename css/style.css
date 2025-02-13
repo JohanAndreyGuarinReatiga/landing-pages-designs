@@ -66,9 +66,14 @@ body{
   display: flex;
   flex-direction: row;
   gap: 80px;
+  margin-left: 115px;
 }
 
 .images{
+  width: 648px;
+  height: 369px;
+  position: relative;
+  bottom: 115px;
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -77,6 +82,37 @@ body{
 .text__bottom{
   width: 483px;
   height: 237px;
+  margin-top: 17px;
+  h3{
+    width: 108px;
+    height: 33px;
+    margin-top: 16px;
+    font-family: "Avenir-Medium";
+    font-size: 24px;
+    color: var(--color-2);
+  }
+  p{
+    width: 483px;
+    height: 60px;
+    color: var(--color-4);
+    font-family: "Avenir-Roman";
+    font-size: 22px;
 
+  }
 }
 
+.text__bottom div:first-child{
+  width: 52px;
+  height: 6px;
+  background: var(--color-2);
+}
+
+.images__bottom {
+  width: 463px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  margin-top: 10px;
+
+}
