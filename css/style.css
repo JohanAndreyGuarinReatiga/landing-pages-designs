@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(http://lh3.googleusercontent.com/-76kceiKXd3w/UjqNWhJqS0I/AAAAAAAACPs/X9SQT8wiBis/s240/grid.png);
+    font-size: 14px;
+    color: #3A2127;
+    padding:30px 40px;
+}
+/* css list with numeber circle background -------------- */
+ .numberlist {
+ max-width:250px;
+ width:100%;  
+}
+.numberlist ol {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font: 15px'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+}
+.numberlist ol ol {
+    margin: 0 0 0 2em;
+}
+.numberlist a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .9em 0;
+    background: #FFF;
+    color: #444;
+    text-decoration: none;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em;
+}
+.numberlist a:hover {
+    background: #D8DFEA;
+    text-decoration:none;
+}
+.numberlist a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #4B79C2;
+background: -webkit-gradient(linear, center top, center bottom, from(#507EC7), to(#426EB5));
+background: -webkit-linear-gradient(#507EC7, #426EB5);
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    color:#FFF;
+}
+.numberlist a:hover:before { background: #fff;color:#000; border-color: #3B5998; }
+/* End css list with numeber circle background -------------- */
